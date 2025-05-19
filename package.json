@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-starter",
+  "name": "code-challenge-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "test": "vitest",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,6 +26,19 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "vite": "^6.3.3",
-    "globals": "^16.0.0"
-  }
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "globals": "^16.0.0",
+    "jsdom": "^26.1.0",
+    "vitest": "^3.1.2"
+  },
+  "cert-ignore": [
+    "@testing-library/react",
+    "@testing-library/jest-dom",
+    "eslint",
+    "eslint-plugin-react-hooks",
+    "eslint-plugin-react-refresh",
+    "jsdom",
+    "vitest"
+  ]
 }
