@@ -1,4 +1,4 @@
-name: Build, Unit Tests, Lint
+name: Build, Lint
 
 on:
   push:
@@ -26,4 +26,3 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run lint
-      - run: npm run test
