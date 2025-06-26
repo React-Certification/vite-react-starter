@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+h1 {
+  @apply text-3xl
+}
+h2 {
+  @apply text-2xl
+}
+h3 {
+  @apply text-xl
+}
+h4 {
+  @apply text-lg
+}
+h5 {
+  @apply text-base
+}
+h6 {
+  @apply text-sm
+}
+p {
+  @apply text-base;
+}
+a {
+  @apply text-blue-500 underline;
+}
+button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded not-disabled:hover:bg-blue-700 not-disabled:cursor-pointer disabled:bg-gray-400;
+}
+input {
+  @apply border border-gray-300 rounded py-2 px-4  focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+textarea {
+  @apply border border-gray-300 rounded py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+ul {
+  @apply list-disc pl-5;
+}
+li {
+  @apply mb-2;
+}
