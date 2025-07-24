@@ -1,0 +1,5 @@
+- When the application loads, the packing list displays three items: "Warm socks" (marked as packed), "Travel journal" and "Watercolors" (both not packed), with status text "1 out of 3 packed!"
+- Entering "Sunglasses" in the input field and clicking Add Item adds the new item with an unchecked checkbox and updates the status to "1 out of 4 packed!"
+- Clicking the checkbox next to "Travel journal" marks it as packed and updates the status to "2 out of 4 packed!"
+- Clicking the checkbox next to "Warm socks" unmarks it and updates the status to "1 out of 4 packed!"
+- Clicking the Delete button for "Watercolors" removes the item from the list and updates the status to "1 out of 3 packed!"
